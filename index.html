@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Service-Website</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary"  role="navigation">
+        <div class="container-fluid">
+          
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="100" height="70">
+              </a>
+                
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class=" d-flex flex-row-reverse bd-highlight">
+          <!-- <div class="navbar navbar-expand-lg navbar navbar-dark bg-primary " role="navigation"> -->
+            
+            <!-- <div class="navbar-header">    
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="100" height="70">
+              </a>  
+               
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">    
+                  <span class="navbar-toggler-icon"></span>
+                </button>    
+         
+            </div>  -->
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Technology</a></li>
+                      <li><a class="dropdown-item" href="#">Web Developmwnt</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Support</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Register As A Professional</a>
+              </li>
+          
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sign In / Sign UP
+              </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <form class="px-4 py-3">
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                  </div>
+                  <div class="mb-3">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                      <label class="form-check-label" for="dropdownCheck">
+                        Remember me
+                      </label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">New around here? Sign up</a>
+                <a class="dropdown-item" href="#">Forgot password?</a>
+            
+
+            <form class="dropdown-menu p-4">
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                    <label class="form-check-label" for="dropdownCheck2">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+            </li>
+            </ul>
+        </ul>
+         
+            <form class="d-flex">
+                <button type="button" class="btn btn-warning">  <i class="fa fa-phone"></i> Request a qoute</button>
+            </form>
+          </div>
+
+          </div>
+        </div>
+      </nav> 
+
+   
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+          <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/unnamed.jpg"   style="height: 400px;" class="d-block w-100"  alt="images">
+          </div>
+          <div class="carousel-item">
+            <img src="images/dent repairs.jpg"  style="height: 400px;" class="d-block w-100" alt="images">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Residential_Services.jpg"  style="height: 400px;" class="d-block w-100" alt="images">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mt-5">
+          <div class="card border-0 mx-5">
+            <div class="card-body">
+                <h5 class="card-title">Webscome Company</h5>
+              <h1 class="card-title">Quality Home Service,<br> On Demand</h1>
+              <p class="card-text">Experienced, hand picked professionals to serve you at doorstep</p>
+              <div class="card shadow  p-3 bg-white rounded" style="width: 18rem;">
+                <div class="card-body">
+                  <h6>Where do you need a service ? </h6>
+                  <div class="shadow p-3  bg-white rounded">
+                    <select class="custom-select">
+                        <option selected>Select your city</option>
+                        <option value="1">Pune</option>
+                        <option value="2">Mumbai</option>
+                        <option value="3">Delhi</option>
+                        <option value="3">Nasik</option>
+                        <option value="3">Nagpur</option>
+                        <option value="3">Indore</option>
+                    </select>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 mt-5">
+          <div class="card border-0 mx-5" style="height: 360px;">
+            <div class="card-body">
+              <h1 class="card-title">Book Professionals From Your <br> Phone</h1>
+              <p class="card-text mt-5">Enter your mobile number to get the app link.</p>
+              <form class="d-flex mt-5">
+              
+              <input type="tel"  id="phone" placeholder="Phone number" >
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="row">
+        <div class="col-sm-4 mt-5">
+            
+      </div>  
+
+        <div class="col-sm-2 mt-5">
+            <div class="card text-white bg-primary mb-3 mt-5" style="max-width: 30rem; max-height: 30rem;" >
+                <img src="images/AC.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                <div class="card-body">
+                <h5 class="card-title text-center">AC Repair</h5>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2 mt-5">
+            <div class="card text-white bg-danger mb-3 mt-5" style="max-width: 30rem; max-height: 30rem">
+                <img src="images/Bike Service.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                <div class="card-body">
+                <h5 class="card-title text-center">Bike Service</h5>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-2 mt-5">
+            <div class="card text-white bg-info mb-3 mt-5" style="max-width: 30rem; max-height: 30rem">
+                <img src="images/Car Service.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                <div class="card-body">
+                <h5 class="card-title text-center">Car Service</h5>
+                <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 mt-2">
+              <h3 class="text-center  mb-3 mt-5 pt-5 text-primary ">Services We Provide</h3>
+          </div>  
+    
+            <div class="col-sm-2  mt-2">
+                <div class="card text-white bg-warning mb-3 mt-5" style="max-width: 30rem; max-height: 30rem">
+                    <img src="images/Carpentery.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Carpenter</h5>
+                    <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-sm-2 mt-2">
+                <div class="card text-white bg-success mb-3 mt-5" style="max-width: 30rem; max-height: 30rem">
+                    <img src="images/Home wash.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">House Cleaners</h5>
+                    <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-2 mt-2">
+                <div class="card text-white bg-info mb-3 mt-5" style="max-width: 30rem; max-height: 30rem">
+                    <img src="images/Electrician.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Electrician</h5>
+                    <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 mt-2">
+                    
+              </div>  
+        
+                <div class="col-sm-2 mt-2">
+                    <div class="card text-white bg-info mb-3 mt-5" style="max-width: 30rem; max-height: 30rem">
+                        <img src="images/Int Ext.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Interior Designer</h5>
+                        <p class="card-text text-center">Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-sm-2 mt-2">
+                    <div class="card text-white bg-primary mb-3 mt-5" style="max-width: 30rem; max-height: 30rem">
+                        <img src="images/Washing mach.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Appliance Repair</h5>
+                        <p class="card-text text-center">Lorem ipsum dolor sit </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-2 mt-2">
+                    <div class="card text-white bg-danger mb-3 mt-5" style="max-width: 30rem; max-height: 30rem">
+                        <img src="images/RO.png"  style="height: 100px; width: 100px;" class="card-img-top mx-auto my-2" alt="images">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">RO Service</h5>
+                        <p class="card-text text-center">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-7 ">
+                        <h2 class="text-center  mb-3 mt-3  ">Why Webscome Company ?</h2>
+                        <div class="mx-5 mt-5">
+                            <dl class="row">
+                                <dt class="col-sm-3"><i class="far fa-file-alt fa-6x" ></i></dt>
+                                <dd class="col-sm-9"><pre> </pre>
+                                    <h5>Transcript Pricing</h5>
+                                    <p  class="text-muted"> fixed prices before you book, No hidden Charges</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        
+                        
+                        <div class="mx-5 mt-2">
+                            <dl class="row">
+                                <dt class="col-sm-3"><i class="fas fa-users fa-6x" ></i></dt>
+                                <dd class="col-sm-9"><pre> </pre>
+                                    <h5>Experts Only</h5>
+                                    <p class="text-muted"> Our Professionals are well trained and have an job expertize</p>
+                                </dd>
+                            </dl>
+                        </div>
+
+                        <div class="mx-5 mt-2">
+                            <dl class="row">
+                                <dt class="col-sm-3"><i class="fas fa-toolbox fa-6x" ></i></dt>
+                                <dd class="col-sm-9"><pre> </pre>
+                                    <h5>Fully Equipped</h5>
+                                    <p  class="text-muted">We bring everything needed to get the job done</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                  </div> 
+
+                  
+                 <div class="col-sm-5 mt-5 px-4">
+                    <div class="card text-dark bg-secondary mt-5 mb-3" style="max-width: 30rem;">
+                        <img src="images/card.png"  style="height: 100px; width: 100px;" class="card-img-top  mt-2 mx-2 my-2" alt="images">
+                        <div class="card-body">
+                          <h4 class="card-title"><pre>1 0 0 %  Q u a l i t y   A s s u r e d</pre></h4>
+                          <h6 class="card-text text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h6>
+                          <br>
+                        </div>
+                      </div>
+                  </div> 
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-sm-5 mt-5 px-4">
+                        <h2 class="text-center  mb-3 mt-3  ">Enter Your Quary</h2>
+
+                        <form>
+                            <div class="form-group mt-3 mx-auto" style="width: 18rem;">
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group mt-3 mx-auto"  style="width: 18rem;">
+                              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                            </div>
+                            <div class="form-group mt-3 mx-auto text-center">
+                            <button type="submit" class="btn btn-primary text-center mx-auto ">Send Message</button>
+                            </div>
+                          </form>
+                    </div>
+
+                    <div class="col-sm-4 mt-5 px-3">
+                        <i class="fab fa-facebook fa-5x mt-5 pt-5 mx-2"></i>
+                        <i class="fab fa-twitter fa-5x mt-5 pt-5 mx-2"></i>
+                        <i class="fab fa-instagram fa-5x mt-5 pt-5 mx-2"></i>
+
+                        <div class="d-inline-flex mx-5 px-3 " style="height: 200px;">
+                            <div class="vr"></div>
+                          </div>
+
+                    </div>
+                    <div class="col-sm-3 mt-2 text-center">
+                    <i class="far fa-building fa-3x mt-3 pt-5 "></i>
+                    <h5 class="text-center ">DJ Block, Saltr Lake, Kolkata West Bengal, Pin-700236</h5>
+                   </div>
+                </div>
+                
+
+
+                <div class="row">
+                    <div class="col-sm-6 mt-2">
+                        <h2 class="text-center  mb-3 mt-2 pt-5">Download It Now !</h2>
+                            <div class="page-content page-container text-center" id="page-content">
+                                <div class="padding">
+                                    <div class="row container d-flex justify-content-center">
+                                        <div class="template-demo mt-2"> 
+                                            <button class="btn btn-outline-dark btn-icon-text mx-2 bg-secondary"> 
+                                                <i class=" btn-icon-prepend fab fa-apple fa-3x mdi-36px"></i> 
+                                                <span class="d-inline-block text-left"> 
+                                                    <small class="font-weight-light d-block">Available on the</small> App Store </span>
+                                            </button> 
+                                            <button class="btn btn-outline-dark btn-icon-text bg-secondary"> 
+                                                <i class="fab fa-google-play fa-3x btn-icon-prepend mdi-36px"></i> 
+                                                <span class="d-inline-block text-left"> 
+                                                    <small class="font-weight-light d-block">Get it on the</small> Google Play </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                    </div>
+
+                    <div class="col-sm-6 mt-5 text-center">
+                        <img src="images/mobile-1.png"  style="height: 350px; width: 300px;" class="card-img-top  mt-2 mx-2 mt-2" alt="images">
+                        <img src="images/mobile-2.png"  style="height: 350px; width: 300px;" class="card-img-top  mt-2 mx-2 mt-2" alt="images">
+                    </div>
+                </div>
+                
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small bg-secondary">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center ">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">About</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="#!">Mumbai</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Mumbai</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Mumbai</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Mumbai</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Blogs</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="#!">Pune</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Pune</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Pune</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Pune</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Contact</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="#!">Delhi</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Delhi</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Delhi</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Delhi</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">Terms & Conditons</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="#!">Kolkata</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Kolkata</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Kolkata</a>
+            </li>
+            <li>
+              <a class="text-white" href="#!">Kolkata</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <div class="row">
+        <div class="col-sm-6 ">
+            <h1 class="text-center  mt-5 text-white ">Webscome Company </h1>
+        </div>
+        <div class="col-sm-4 mx-4 ">
+            <div class="page-content page-container " id="page-content">
+                <div class="padding">
+                    <div class="row container d-flex">
+                        <div class="template-demo mt-2"> 
+                            <button class="btn btn-outline-dark btn-icon-text mx-2 bg-secondary"> 
+                                <i class=" btn-icon-prepend fab fa-apple fa-3x mdi-36px"></i> 
+                                <span class="d-inline-block text-left"> 
+                                    <small class="font-weight-light d-block">Available on the</small> App Store </span>
+                            </button> 
+                            <button class="btn btn-outline-dark mx-2 btn-icon-text bg-secondary"> 
+                                <i class="fab fa-google-play fa-3x btn-icon-prepend mdi-36px"></i> 
+                                <span class="d-inline-block text-left"> 
+                                    <small class="font-weight-light d-block">Get it on the</small> Google Play </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            </div>
+            <div class="col-sm-1 mt-2 text-center">
+            <img src="images/logo.png"  class="d-inline-flex" style="height: 100px; width: 100px;" class="card-img-top  " alt="images">
+            </div>
+            </div>
+            
+  
+  </footer>
+  <!-- Footer -->
+  
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
